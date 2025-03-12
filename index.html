@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Heading -->
+        <h2 class="title"><span class="line"></span> YAY! It’s BOGO <span class="line"></span></h2>
+        
+        <div class="offer-box" data-units="1">
+
+            <!-- Data Unit 1 -->
+            <div class="offer-header">
+                <input type="radio" name="offer" id="unit1" class="radio-btn">
+                <label for="unit1">1 Unit <span class="discount">10% Off</span></label>
+                <span class="price">$10.00 USD <del>$24.00 USD</del></span>
+            </div>
+
+            <!-- Sizes and Color For box 1-->
+            <div class="offer-content">
+                <div class="size-color">
+                    <label>Size</label>
+                    <label>Color</label>
+                </div>
+                <div class="size-color-selection">
+                    <label>#1</label>
+                    <select class="size">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                    <select class="color" id="color-beside-size">
+                        <option>Black</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                        <option>Yellow</option>
+                        <option>White</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        <div class="offer-box popular" data-units="2">
+
+             <!-- Data Unit 2 -->
+            <div class="offer-header">
+                <input type="radio" name="offer" id="unit2" class="radio-btn">
+                <label for="unit2">2 Units <span class="discount">20% Off</span></label>
+                <span class="price">$18.00 USD <del>$24.00 USD</del></span>
+                <span class="popular-tag">MOST POPULAR</span>
+            </div>
+
+            <!-- Sizes and Color For box 2-->
+            <div class="offer-content">
+                <div class="size-color">
+                    <label>Size</label>
+                    <label>Color</label>
+                </div>
+                <div class="size-color-selection">
+                    <label>#1</label>
+                    <select class="size">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                    <select class="color">
+                        <option>Black</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                        <option>Yellow</option>
+                        <option>White</option>
+                    </select>
+                </div>
+                <div class="size-color-selection">
+                    <label>#2</label>
+                    <select class="size">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                    <select class="color">
+                        <option>Black</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                        <option>Yellow</option>
+                        <option>White</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        <div class="offer-box" data-units="3">
+
+           <!-- Data Unit 3 -->
+            <div class="offer-header">
+                <input type="radio" name="offer" id="unit3" class="radio-btn">
+                <label for="unit3">3 Units <span class="discount">30% Off</span></label>
+                <span class="price">$24.00 USD <del>$24.00 USD</del></span>
+            </div>
+
+            <!-- Sizes and Color For box 1-->
+            <div class="offer-content">
+                <div class="size-color">
+                    <label>Size</label>
+                    <label>Color</label>
+                </div>
+                <div class="size-color-selection">
+                    <label>#1</label>
+                    <select class="size">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                    <select class="color">
+                        <option>Black</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                        <option>Yellow</option>
+                        <option>White</option>
+                    </select>
+                </div>
+                <div class="size-color-selection">
+                    <label>#2</label>
+                    <select class="size">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                    <select class="color">
+                        <option>Black</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                        <option>Yellow</option>
+                        <option>White</option>
+                    </select>
+                </div>
+                <div class="size-color-selection">
+                    <label>#3</label>
+                    <select class="size">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                    <select class="color">
+                        <option>Black</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                        <option>Yellow</option>
+                        <option>White</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Shipping and total -->
+        <div class="summary">
+            <span class="free-delivery">Free Delivery</span>
+            <span class="total-price">Total: $18.00 USD</span>
+        </div>
+        
+        <!-- Add to cart button -->
+        <button class="add-to-cart">+ Add to Cart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
